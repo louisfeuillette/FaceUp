@@ -4,14 +4,14 @@ var uniqid = require('uniqid');
 var fs = require('fs');
 const request = require('sync-request');
 
-const subscriptionKey = '93e27b4cd19c4b1c82bd28662d3****';
+const subscriptionKey = 'a109cf11cef849348bfa69f3689bcf27';
 const uriBase = 'https://westcentralus.api.cognitive.microsoft.com/face/v1.0/detect';
 
 var cloudinary = require('cloudinary').v2;
 cloudinary.config({ 
-  cloud_name: 'dvqjak***', 
-  api_key: '767287626552***', 
-  api_secret: 'BRfbaQzy3xSWMq0dNqdLAS***',
+  cloud_name: 'louisdata',
+  api_key: '286352576424888',
+  api_secret: '6DYHGQgAnHPOMkqkiFr4BlEm4X4' 
 });
 
 /* GET home page. */
